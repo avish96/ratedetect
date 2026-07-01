@@ -1,0 +1,15 @@
+^_config\.yml$
+^\.\.Rcheck$
+^\.\.Rcheck/.*$
+^.git$
+^.*\.git$
+^.*\.git/.*$
+^figure$
+^pdftex$
+^pdflatex$
+^treedater_.*\.tar\.gz$
+^treedater\.Rcheck$
+^cran-comments.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+^CRAN-SUBMISSION$

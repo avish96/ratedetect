@@ -1,0 +1,9 @@
+.DS_Store
+*.png
+!treedater/figure/*.png
+!simulations/simulation_results/simulations_SANN/figures_main/phylopomp_main/.gitkeep
+!simulations/simulation_results/simulations_SANN/figures_main/to_etal_main/.gitkeep
+!simulations/simulation_results/simulations_SANN/figures_supp/phylopomp_supp/.gitkeep
+!simulations/simulation_results/simulations_SANN/figures_supp/to_etal_supp/.gitkeep
+simulations/simulation_results/simulations_SANN/simulation_runfiles_SANN 
+*.zip

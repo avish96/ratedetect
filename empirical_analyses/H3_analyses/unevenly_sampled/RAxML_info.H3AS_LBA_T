@@ -1,0 +1,109 @@
+
+
+IMPORTANT WARNING: Sequences EPI3412925|Avian|2022-09-30|A/duck/Moscow/6104/2022|HA|gisaid and EPI3412900|Avian|2022-09-30|A/duck/Moscow/6103/2022|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI4102300|Avian|2024-08-04|A/Mallard/Sweden/SVA250219SZ0371/FB045911//V-2_Mixed_infection/H-2024|HA|gisaid and EPI4102280|Avian|2024-08-04|A/Mallard/Sweden/SVA250219SZ0371/FB045911/H-2024|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI3406730|Avian|2018-11-26|A/green-winged_teal/Ilan/18WB0125-6/2018|HA|gisaid and EPI3407336|Avian|2018-11-26|A/duck/Ilan/18WB0125-2-E1/2018|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI3488541|Swine|2024-06-04|A/swine/Indiana/A02862668/2024|HA|gisaid and EPI3503944|Swine|2024-06-13|A/swine/Indiana/24TOSU0617/2024|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI2161978|Swine|2021-07-15|A/swine/Ohio/21TOSU2997/2021|HA|gisaid and EPI2637063|Swine|2021-06-05|A/swine/Ohio/21TOSU0600/2021|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI2161978|Swine|2021-07-15|A/swine/Ohio/21TOSU2997/2021|HA|gisaid and EPI2161720|Swine|2021-07-15|A/swine/Ohio/21TOSU2979/2021|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI2161956|Swine|2021-06-25|A/swine/Illinois/21TOSU2174/2021|HA|gisaid and EPI2636746|Swine|2021-06-17|A/swine/Indiana/21TOSU1375/2021|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI2117013|Swine|2021-05-27|A/swine/Iowa/21TOSU0666/2021|HA|gisaid and EPI2637086|Swine|2021-05-27|A/swine/Iowa/21TOSU0824/2021|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI2161998|Swine|2021-06-17|A/swine/Indiana/21TOSU0951/2021|HA|gisaid and EPI2636908|Swine|2021-06-17|A/swine/Indiana/21TOSU1636/2021|HA|gisaid are exactly identical
+
+
+IMPORTANT WARNING: Sequences EPI3450887|Swine|2010-11-12|A/swine/Iowa/101238/2010|HA|gisaid and EPI3450886|Swine|2010-11-12|A/swine/Iowa/101237/2010|HA|gisaid are exactly identical
+
+IMPORTANT WARNING
+Found 10 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file gisaid_epiflu_sequence_H3_HA_Avian_Swine_lengthdupidfilt_aligned_trimmed_edit_nohang_LBA.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1220 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1220
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/brlab/bin/raxmlHPC-PTHREADS-AVX2 -T 24 -m GTRGAMMA -p 12345 -s gisaid_epiflu_sequence_H3_HA_Avian_Swine_lengthdupidfilt_aligned_trimmed_edit_nohang_LBA.fasta -n H3AS_LBA_T 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.336 0.198 0.225 0.241 
+
+Inference[0]: Time 152.656593 GAMMA-based likelihood -78896.162692, best rearrangement setting 5
+alpha[0]: 0.534706 rates[0] ac ag at cg ct gt: 1.678822 8.805343 0.834673 0.228904 9.511304 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -78896.113510 tree written to file /home/brlab/Avinash/Phylopomp_Sept24/More_Rigor_Analyses/Reproducible/manuscript_analyses/H3_GISAID/RAxML_result.H3AS_LBA_T
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -78896.113510 .... 
+
+Final GAMMA-based Score of best tree -78896.112454
+
+Program execution info written to /home/brlab/Avinash/Phylopomp_Sept24/More_Rigor_Analyses/Reproducible/manuscript_analyses/H3_GISAID/RAxML_info.H3AS_LBA_T
+Best-scoring ML tree written to: /home/brlab/Avinash/Phylopomp_Sept24/More_Rigor_Analyses/Reproducible/manuscript_analyses/H3_GISAID/RAxML_bestTree.H3AS_LBA_T
+
+Overall execution time: 212.156245 secs or 0.058932 hours or 0.002456 days
+

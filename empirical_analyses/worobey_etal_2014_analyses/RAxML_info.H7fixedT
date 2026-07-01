@@ -1,0 +1,87 @@
+
+
+IMPORTANT WARNING: Sequences 1977_Avian_A/blue-winged_teal/ALB/295/1977_Canada and 1977_Avian_A/widgeon/Alberta/284/1977_Canada are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file H7.fnl.headermod2.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 953 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 1.87%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 953
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/brlab/bin/raxmlHPC-PTHREADS-AVX2 -f e -t H7.fnl.2_rates.mcc.mod2.nwk -T 8 -m GTRGAMMA -p 12345 -s H7.fnl.headermod2.fasta -n H7fixedT 
+
+
+
+Model parameters (binary file format) written to: /home/brlab/Avinash/Phylopomp_Sept24/More_Rigor_Analyses/Reproducible/Worobeyetal2014_data_ch1/RAxML_binaryModelParameters.H7fixedT
+
+
+Overall Time for Tree Evaluation 0.708661
+Final GAMMA  likelihood: -24677.488974
+
+Number of free parameters for AIC-TEST(BR-LEN): 298
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.342710
+Tree-Length: 3.190124
+rate A <-> C: 1.794514
+rate A <-> G: 11.137548
+rate A <-> T: 0.780072
+rate C <-> G: 0.255171
+rate C <-> T: 14.903525
+rate G <-> T: 1.000000
+
+freq pi(A): 0.336524
+freq pi(C): 0.185153
+freq pi(G): 0.241837
+freq pi(T): 0.236486
+
+Final tree written to:                 /home/brlab/Avinash/Phylopomp_Sept24/More_Rigor_Analyses/Reproducible/Worobeyetal2014_data_ch1/RAxML_result.H7fixedT
+Execution Log File written to:         /home/brlab/Avinash/Phylopomp_Sept24/More_Rigor_Analyses/Reproducible/Worobeyetal2014_data_ch1/RAxML_log.H7fixedT
