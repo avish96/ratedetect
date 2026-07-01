@@ -8,7 +8,7 @@ on this repository. Upon acceptance of the manuscript, they will be moved to Zot
 
 ## File Structure 
 ```
-structrate
+ratedetect
 ├── data
 │   └── True unrooted trees with dates
 │       ├── Relaxed molecular clock trees
