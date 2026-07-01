@@ -13,7 +13,6 @@ ratedetect
 │   └── True unrooted trees with dates
 │       ├── Relaxed molecular clock trees
 │       └── Strict molecular clock trees
-├─detect_structured_rates.R
 ├── empirical_analyses
 │   ├── figures
 │   ├── H3_analyses
@@ -22,6 +21,7 @@ ratedetect
 │   └── worobey_etal_2014_analyses
 ├── scripts
 │   ├── birthdeath_treeprep.R
+│   ├── detect_structured_rates.R
 │   ├── master_simulation_script_birthdeath_template.R
 │   ├── master_simulation_script_phylopomp_template.R
 │   ├── phylopomp_inline_remover.py
@@ -47,8 +47,7 @@ ratedetect
 
 ## Method Implementation 
 
-A general command-line implementation of our nonparametric method is provided in `detect_structured_rates.R`. All test statistics described in the paper are included, with the script 
-outputting the corresponding p-values for detection of structured rate variation. 
+A general command-line implementation of our nonparametric method is provided in `detect_structured_rates.R` within `scripts/`. All test statistics described in the paper are included, with the script outputting the corresponding p-values for detection of structured rate variation. 
 
 The current implementation only permits a Gamma distribution for the underlying lineage rates. The script can be modified as desired to consider other test statistics 
 and lineage rate distributions.
