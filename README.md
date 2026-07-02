@@ -77,8 +77,6 @@ If you implement our method in your work, please cite:
 
 Please include citations to the associated dependencies as well, depending on the test statistics used.
 
-##
-
 ## Simulation Analyses
 
 All simulation analysis template scripts are housed in the `scripts/` folder. 
