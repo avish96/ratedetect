@@ -69,6 +69,16 @@ For example (in directory of script, with files in same directory):
 ./detect_structured_rates.R --tp tree.nwk --td tree_dated.nwk --tr tree_rateogram.nwk --dm1 deme1 --dm2 deme2 --nsites 1000 --shape 0.01 --scale 100
 ```
 
+## Method Citation
+
+If you implement our method in your work, please cite:
+
+- Subramanian, A, Lauring, AS, King, AA, Smith, SA. A nonparametric method for detecting substitution rate heterogeneity in viral phylogenies. 
+
+Please include citations to the associated dependencies as well, depending on the test statistics used.
+
+##
+
 ## Simulation Analyses
 
 All simulation analysis template scripts are housed in the `scripts/` folder. 
