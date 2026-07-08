@@ -85,8 +85,7 @@ Actual scripts used for simulation analyses are in the `simulations/` folder in 
 The files to run these analyses and log execution details are `run_birthdeath_scripts.sh` and `run_phylopomp_scripts.sh`. Essential functions used during the simulation are 
 in `sim_funcs.R`, while essential details on simulation results are extracted using the `values_for_analysis_scripts.R` file. See paper for further analysis details. 
 
-Simulation results and figures are housed within `simulations/`. All simulated trees and results optimized using simulated annealing are in the zipped file within `simulations_SANN/`.
-Power analysis results and example tree files for Figure 2 and S1 are also uploaded in `phylopomp_results/` and `to_etal_results/`.
+Simulation results and figures are housed within `simulations/`. All simulation output files optimized using simulated annealing are housed in Zenodo, and available upon request. They will be published upon acceptance of this manuscript. Among these files, the power analysis result files and tree files used for Figures 2 and S1 are uploaded in `simulations_SANN/` in the `phylopomp_results/` and `to_etal_results/` directories.
 
 ### _Phylopomp_ Analyses
 
