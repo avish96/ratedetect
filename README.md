@@ -90,24 +90,25 @@ Power analysis results and example tree files for Figure 2 and S1 are also uploa
 
 ### _Phylopomp_ Analyses
 
-The simulation script for the _phylopomp_ trees is `phylopomp_treesim.R`. This script results in 200 transmission trees. Inline nodes and conversion to a phylogeny object are done using
-`phylopomp_treeprep.R` and `phylopomp_inline_remover.py`. The resulting _phylopomp_ trees are then used to conduct the simulation-based power analysis using the
-`master_simulation_script_phylopomp_template.R` script files, with template replaced by the specific scenario being tested. The `values_for_analysis_scripts.R` file contains code for
-calculating basic statistics of outputted _phylopomp_ trees, and calculating the sampling weights used in the heterogeneous sampling through time simulations.
+The simulation script for the _phylopomp_ trees is `phylopomp_treesim.R`. This script results in 200 transmission trees. Inline nodes and conversion to a phylogeny object are done using `phylopomp_treeprep.R` and `phylopomp_inline_remover.py`. The resulting _phylopomp_ trees are then used to conduct the simulation-based power analysis using the
+`master_simulation_script_phylopomp_template.R` script files, with template replaced by the specific scenario being tested. 
+
+The `values_for_analysis_scripts.R` file contains code for calculating basic statistics of outputted _phylopomp_ trees, and calculating the sampling weights used in the heterogeneous sampling through time simulations. The latter is based on the FASTA files for H3N2 HA sequences downloaded from GISAID, located in the `data/H3N2_HA_GISAID` folder. Sequences were downloaded from January 1 to December 31 of the year(s) marked in the file, with 2022 split into two files due to data download limits.
 
 ### Birth-Death Analyses
-The birth-death trees used for these analyses are uploaded in `data/`, obtained from To et al. (2016) through their  online repository: http://www.atgc-montpellier.fr/LSD/.
+
+The birth-death trees used for these analyses are uploaded in `data/True unrooted trees with dates`, obtained from To et al. (2016) from their  online repository: http://www.atgc-montpellier.fr/LSD/.
+
 The script for simulating demes on these trees is `birthdeath_treeprep.R`. The resulting birth-death trees are then used to conduct the simulation-based power analysis
 using the `master_simulation_script_birthdeath_template.R` script files, with template replaced by the specific scenario being tested.
 
 ## Empirical Analyses
 
 All empirical analysis scripts and results are housed in `empirical_analyses/`. 
+
 The H7 data from Worobey et al. (2014) is obtained from their Dryad Digital Repository: http://dx.doi.org/10.5061/dryad.m04j9.
-The original-passaged H3 sequence data from GISAID, with associated accession codes, are in `gisaid_epiflu_sequence_H3_HA_Avian.fasta` for avian taxa, and   
-`gisaid_epiflu_sequence_H3_HA_Swine.fasta` for Swine taxa. The H3 sequence data from all passaging types from GISIAD, with associated accession codes, are in
-`gisaid_epiflu_sequence_H3_nopass_HA_Avian.fasta` for Avian taxa, and `gisaid_epiflu_sequence_H3_nopass_HA_Swine.fasta` for Swine taxa. GISAID metadata, including detailed
-accession information, are in the accompanying xls files.
+
+GISAID acknowledgement tables for H3 sequence data are provided in supplementary tables S3 - S6 of the manuscript. They are also uploaded here as EPI_SET ID files, together with the GISAID metadata files containing detailed accession code information. For H3 sequence data filtered for original passaging, they are labeled as `gisaid_epiflu_sequence_H3_HA_Avian.xls` for avian taxa and `gisaid_epiflu_sequence_H3_HA_Swine.xls` for Swine taxa. For H3 sequence data from GISIAD not filtered for passaging, they are labeled as `gisaid_epiflu_sequence_H3_nopass_HA_Avian.xls` for Avian taxa, and `gisaid_epiflu_sequence_H3_nopass_HA_Swine.xls` for Swine taxa. 
 
 Alignment and tree-building workflows are described in `empirical_analyses_worobey_etal_2014_tree_build_commands.sh` for the Worobey et al. (2014) H7 dataset, and in 
 `empirical_analyses_H3_tree_build_commands.sh` for the GISAID H3 datasets. Evenly- and unevenly-sampled H3 datasets and results are housed in their respective directories. 
