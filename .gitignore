@@ -7,3 +7,5 @@
 !simulations/simulation_results/simulations_SANN/figures_supp/to_etal_supp/.gitkeep
 simulations/simulation_results/simulations_SANN/simulation_runfiles_SANN 
 *.zip
+*.tar.gz
+empirical_analyses/H3_analyses/EPISETID
