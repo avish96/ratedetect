@@ -81,8 +81,7 @@ All simulation analysis template scripts are housed in the `scripts/` folder.
 Two sets of simulation analyses were conducted: the first with trees simulated using _phylopomp_, the second with birth-death trees simulated in To et al. (2016). 
 Actual scripts used for simulation analyses are in the `simulations/` folder in the respective analysis directories.
 
-The files to run these analyses and log execution details are `run_birthdeath_scripts.sh` and `run_phylopomp_scripts.sh`. Essential functions used during the simulation are 
-in `sim_funcs.R`, while essential details on simulation results are extracted using the `values_for_analysis_scripts.R` file. See paper for further analysis details. 
+The files to run these analyses and log execution details are `run_birthdeath_scripts.sh` and `run_phylopomp_scripts.sh`. Essential functions used during the simulation are in `sim_funcs.R`, while essential details on simulation results are extracted using the `values_for_analysis_scripts.R` file. See paper for further analysis details. 
 
 Example tree files used for Figures 2 and S1, and the power analysis result files for simulated annealing, are uploaded in `simulations/simulation_results/simulations_SANN/` in the respective analysis directories.
 
@@ -116,8 +115,9 @@ and `empirical_analyses_H3_method_application.R`. See paper for analysis details
  
 ## Reproducibility
 
-To reproduce all simulation results, run `run_phylopomp_scripts.sh` and `run_birthdeath_scripts.sh` for the _phylopomp_ and birth-death analyses, respectively.
-These were run using `nohup` on a remote cluster for manuscript results. To reproduce calculated tree statistics and sampling weights, run the respective code within
+To reproduce all simulation results, run `run_phylopomp_scripts.sh` and `run_birthdeath_scripts.sh` for the _phylopomp_ and birth-death analyses, respectively. To run both analyses in a single command, run `run_sims.sh`. The latter was run using `nohup` on a remote cluster for manuscript simulation results. 
+
+To reproduce calculated tree statistics and sampling weights, run the respective code within
 the `values_for_analysis_scripts.R` file.
 
 For empirical analyses, to reproduce alignment and tree-building files, follow the step-by-step procedure in the `.sh` files. 
