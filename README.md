@@ -2,12 +2,16 @@
 
 ## A nonparametric approach for detecting substitution-rate heterogeneity in viral phylogenies
 
-**Authors:** Avinash Subramanian, Adam S. Lauring, Aaron A. King, Stephen A. Smith.
+**Authors:** Avinash Subramanian<sup>1</sup>, Adam S. Lauring<sup>2</sup>, Aaron A. King<sup>1,3,4</sup>, Stephen A. Smith<sup>1</sup>
 
-**Affiliations:** 
+**Affiliations:**
+
 <sup>1</sup> Department of Ecology and Evolutionary Biology, University of Michigan
-<sup>2</sup> Division of Infectious Diseases, Department of Internal Medicine, University of Michigan  
-<sup>3</sup> Center for the Study of Complex Systems, University of Michigan 
+
+<sup>2</sup> Division of Infectious Diseases, Department of Internal Medicine, University of Michigan
+
+<sup>3</sup> Center for the Study of Complex Systems, University of Michigan
+
 <sup>4</sup> Santa Fe Institute, Santa Fe, New Mexico  
 
 **Corresponding author:** Avinash Subramanian
