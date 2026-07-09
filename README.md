@@ -2,8 +2,7 @@
 
 This repository contains all simulation and empirical workflows and coding scripts for the manuscript _A nonparametric approach for detecting substitution-rate heterogeneity in viral phylogenies. Avinash Subramanian, Adam S. Lauring, Aaron A. King, Stephen A. Smith._
 
-Empirical analysis datasets are also housed in this repository. Simulation results and files are curently uploaded as a zipped file
-on this repository. Upon acceptance of the manuscript, they will be moved to Zotero.
+Empirical analysis datasets are also housed in this repository. Simulation output files are uploaded on Zenodo, and available upon request. Upon acceptance of this manuscript, they will be publicly published.
 
 ## File Structure 
 ```
@@ -85,7 +84,7 @@ Actual scripts used for simulation analyses are in the `simulations/` folder in 
 The files to run these analyses and log execution details are `run_birthdeath_scripts.sh` and `run_phylopomp_scripts.sh`. Essential functions used during the simulation are 
 in `sim_funcs.R`, while essential details on simulation results are extracted using the `values_for_analysis_scripts.R` file. See paper for further analysis details. 
 
-Simulation results and figures are housed within `simulations/`. All simulation output files optimized using simulated annealing are housed in Zenodo, and available upon request. They will be published upon acceptance of this manuscript. Among these files, the power analysis result files and tree files used for Figures 2 and S1 are uploaded in `simulations_SANN/` in the `phylopomp_results/` and `to_etal_results/` directories.
+Example tree files used for Figures 2 and S1, and the power analysis result files for simulated annealing, are uploaded in `simulations/simulation_results/simulations_SANN/` in the respective analysis directories.
 
 ### _Phylopomp_ Analyses
 
