@@ -165,6 +165,13 @@ To reproduce analyses, the package _ete3_ v.3.1.2 is required for Python. In R, 
 _Treedater_ was manually modified and installed to assess different optimization algorithms. 
 The package modified to use simulated annealing is uploaded on this repository.
 
+For empirical analyses, the following software are additionally required:
+
+- _phyx_ v.1.3.2
+- _MAFFT_ v.7.490
+- _trimAI_ v.1.4.rev15
+- _RAxML_ v.raxmlHPC-PTHREADS-AVX2
+
 ## References
 
 1. Capella-Gutiérrez S, Silla-Martínez JM, Gabaldón T. 2009. trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses. Bioinformatics 25:1972–1973.
