@@ -1,8 +1,20 @@
-# Detecting Structured Rate Variation
+# Detecting Structured Rate Variation - Code Repository
 
-This repository contains all simulation and empirical workflows and coding scripts for the manuscript _A nonparametric approach for detecting substitution-rate heterogeneity in viral phylogenies. Avinash Subramanian, Adam S. Lauring, Aaron A. King, Stephen A. Smith._
+## A nonparametric approach for detecting substitution-rate heterogeneity in viral phylogenies
 
-Empirical analysis datasets are also housed in this repository. Simulation output files are uploaded on Zenodo, and available upon request. Upon acceptance of this manuscript, they will be publicly published.
+**Authors:** Avinash Subramanian, Adam S. Lauring, Aaron A. King, Stephen A. Smith.
+
+**Affiliations:** 
+<sup>1</sup> Department of Ecology and Evolutionary Biology, University of Michigan
+<sup>2</sup> Division of Infectious Diseases, Department of Internal Medicine, University of Michigan  
+<sup>3</sup> Center for the Study of Complex Systems, University of Michigan 
+<sup>4</sup> Santa Fe Institute, Santa Fe, New Mexico  
+
+**Corresponding author:** Avinash Subramanian
+
+This repository contains all simulation and empirical workflows and coding scripts used in this manuscript. Empirical analysis datasets are also housed in this repository. 
+
+Simulation output files are uploaded on Zenodo, and available upon request. Upon acceptance of this manuscript, they will be publicly published.
 
 ## File Structure 
 ```
